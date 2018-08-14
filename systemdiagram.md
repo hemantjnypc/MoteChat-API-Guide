@@ -2,5 +2,5 @@
 
 ---
 
-![](/assets/IMG_0049.jpg)
+![](/assets/mc_sys_diag.jpg)
 
