@@ -1,14 +1,17 @@
+# Table of contents
+
+* [Introduction](README.md)
 
 ## Overview
 
-* [MoteChat](README.md)
-* [MoteChat HelloWorld](motechathelloworld.md)
+* [MoteChat](overview/readme.md)
+* [MoteChat HelloWorld](overview/motechathelloworld.md)
 
 ## Motechat API
 
-* [System Diagram](systemdiagram.md)
-* [List of APIs](functionlist.md)
-* [Function List](listofapi.md)
-* [Commands & Usage](command.md)
-* [Error Codes](errorcode.md)
+* [System Diagram](motechat-api/systemdiagram.md)
+* [List of APIs](motechat-api/functionlist.md)
+* [Function List](motechat-api/listofapi.md)
+* [Commands & Usage](motechat-api/command.md)
+* [Error Codes](motechat-api/errorcode.md)
 
