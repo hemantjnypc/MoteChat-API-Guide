@@ -1,4 +1,3 @@
-# Summary
 
 ## Overview
 
@@ -8,7 +7,7 @@
 ## Motechat API
 
 * [System Diagram](systemdiagram.md)
-* [List of API](functionlist.md)
+* [List of APIs](functionlist.md)
 * [Function List](listofapi.md)
 * [Commands & Usage](command.md)
 * [Error Codes](errorcode.md)
