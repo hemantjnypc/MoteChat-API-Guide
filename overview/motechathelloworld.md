@@ -1,3 +1,7 @@
+---
+description: MoteChat configuration
+---
+
 # MoteChat HelloWorld
 
 1. Setup _'nodejs'_ environment
@@ -8,13 +12,13 @@
 
 * **config.json**
 
-  ![](../.gitbook/assets/mc_api_config_json.png)
+![](../.gitbook/assets/mc_api_config_json.png)
 
 * **device.json**
 
-  ![](../.gitbook/assets/mc_api_device_json.png)
+![](../.gitbook/assets/mc_api_device_json.png)
 
 * **mote.json**
 
-  ![](../.gitbook/assets/mc_api_mote_json.png)
+![](../.gitbook/assets/mc_api_mote_json.png)
 

@@ -1,6 +1,10 @@
+---
+description: MoteChat functions
+---
+
 # Function List
 
-| Command | Description |
+| **Command** | **Description** |
 | :--- | :--- |
 | Open | Open motechat |
 | Close | Close motechat |

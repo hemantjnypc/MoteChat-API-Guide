@@ -1,6 +1,10 @@
+---
+description: MoteChat APIs
+---
+
 # List of APIs
 
-| Command | Function |
+| **Command** | **Function** |
 | :--- | :--- |
 | Open | mChat.Open\(\) |
 | Close | mChat.Close\(\) |

@@ -131,7 +131,7 @@
   });
   ```
 
-  Note: First time device registration, the _EiToken_ and _SToken_ fields are empty
+  Note: First time device registration, the _EiToken_ and _SToken_ fields are empty  
 
 * **UnReg**
 
