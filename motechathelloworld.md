@@ -10,15 +10,15 @@
 
 
 
-* **config.json 
+* **config.json** 
 
   ![](assets/mc_api_config_json.png)
 
-* **device.json  
+* **device.json**  
 
   ![](assets/mc_api_device_json.png)
 
-* **mote.json     
+* **mote.json**    
 
   ![](assets/mc_api_mote_json.png)
 
