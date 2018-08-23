@@ -4,6 +4,8 @@ description: MoteChat error codes
 
 # Error Codes
 
+#### MoteChat
+
 |  |  |  |
 | :--- | :--- | :--- |
 | **Error Code** | **Error Msg** | **Reason** |
@@ -25,4 +27,23 @@ description: MoteChat error codes
 | -10207 | mc: DDN off |   |
 
 
+
+#### MoteBus
+
+|  |  |  |
+| :--- | :--- | :--- |
+| **Error Code** | **Error Msg** | **Reason** |
+| 32600 | Invalid request |  **** |
+| 32601 | Method not found |  **** |
+| 32602 | Invalid params |  **** |
+| 32603 | Internal error |  **** |
+| 32700 | Parse error |  **** |
+| 32001 | Timeout |  **** |
+| 32002 | System error |  **** |
+| 32003 | Host not found |  **** |
+| 32004 | Address not found |  **** |
+| 32010 | System error |  **** |
+| 32050 | Data not found |  **** |
+| 32099 | Runtime error |  **** |
+| 32100 | RPC error |  **** |
 
