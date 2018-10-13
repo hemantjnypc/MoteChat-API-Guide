@@ -1,8 +1,8 @@
+---
+description: ChatBot for SmartScreen
+---
+
 # Introduction
 
-![](.gitbook/assets/mc.png)
-
-```text
-MoteChat API Guide | YPCloud Inc. | Copyright©2018 | Last Updated: 2018/04/28
-```
+![](.gitbook/assets/ppt_logo_-01.png)
 
