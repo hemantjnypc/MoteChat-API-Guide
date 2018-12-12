@@ -1,8 +1,8 @@
 ---
-description: MoteChat functions
+description: MoteChat APIs
 ---
 
-# Function List
+# List of APIs
 
 | **Command** | **Description** |
 | :--- | :--- |

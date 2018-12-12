@@ -1,8 +1,14 @@
-# Commands & Usage
+---
+description: MoteChat API functions and usage
+---
 
-* **Open**
+# Functions & Usage
 
-  Input:
+* **Open**  
+
+
+  Input:  
+
 
   ```javascript
   conf:     configuration objects for init = {"AppName":"", "IOC":"", "DCenter":"", "AppKey":"", "UseWeb":""} 
@@ -17,7 +23,8 @@
   cb:       callback({ErrCode, ErrMsg, result})
   ```
 
-  Example 1:
+  Example 1:  
+
 
   ```javascript
   var conf = {"AppName":"", "IOC":"", "DCenter":"", "AppKey":"", "UseWeb":""} 
@@ -30,7 +37,8 @@
   });
   ```
 
-  Example 2: reg to DC directly
+  Example 2: reg to DC directly  
+
 
   ```javascript
   var conf = {"AppName":"", "IOC":"", "DCenter":"", "AppKey":"", "UseWeb":""}
@@ -44,17 +52,25 @@
   });
   ```
 
-* **Close**
 
-  Input:
+
+* **Close**  
+
+
+  Input:  
+
 
   ```javascript
   cb: callback({ErrCode, ErrMsg})
   ```
 
-* **Publish**
 
-  Input:
+
+* **Publish**  
+
+
+  Input:  
+
 
   ```javascript
   app:     name of the function 
@@ -62,7 +78,8 @@
   cb:      callback({ErrCode, ErrMsg})
   ```
 
-  Example:
+  Example:  
+
 
   ```javascript
   var app = ‘motechat’;
@@ -82,16 +99,21 @@
   });
   ```
 
-* **Isolated**
 
-  Input:
+
+* **Isolated**  
+
+
+  Input:  
+
 
   ```javascript
   func: user function entry which is published
   cb:   callback({ErrCode, ErrMsg})
   ```
 
-  Example:
+  Example:  
+
 
   ```javascript
   var XrpcMcSecService = { 
@@ -110,9 +132,13 @@
   });
   ```
 
-* **Reg**
 
-  Input:
+
+* **Reg**  
+
+
+  Input:  
+
 
   ```javascript
   data: registration information = {"EiToken":"","SToken":"","WIP":""} 
@@ -122,7 +148,8 @@
   cb: callback({ErrCode, ErrMsg, result})
   ```
 
-  Example:
+  Example:  
+
 
   ```javascript
   var mydev = {"EiToken":"8dilCCKj","SToken":"baTi52uE","WIP":""};
@@ -133,9 +160,13 @@
 
   Note: First time device registration, the _EiToken_ and _SToken_ fields are empty  
 
-* **UnReg**
 
-  Input:
+
+* **UnReg**  
+
+
+  Input:  
+
 
   ```javascript
   data: registration information = {"SToken":""} 
@@ -143,7 +174,8 @@
   cb: callback({ErrCode, ErrMsg} )
   ```
 
-  Example:
+  Example:  
+
 
   ```javascript
   var mydev = {"SToken":"baTi52uE"}; 
@@ -152,9 +184,13 @@
   });
   ```
 
-* **Call**
 
-  Input:
+
+* **Call**  
+
+
+  Input:  
+
 
   ```javascript
   xrpc: xrpc control object, {"SToken":"", "Target":"", "Func":"", "Data":{},"SendTimeout": 6,"WaitReply": 12} 
@@ -181,9 +217,13 @@
   });
   ```
 
-* **Send**
 
-  Input:
+
+* **Send**  
+
+
+  Input:  
+
 
   ```javascript
   xmsg: xmsg control object, {"SToken":"", "From":"", "Target":"","Data":{}, "SendTimeout": 6,"WaitReply": 12}
@@ -197,7 +237,8 @@
   cb: callback({ErrCode,ErrMsg}) or callback(reply)
   ```
 
-  Example:
+  Example:  
+
 
   ```javascript
   var target = ‘myEi’;
@@ -212,9 +253,13 @@
   });
   ```
 
-* **Get**
 
-  Input:
+
+* **Get**  
+
+
+  Input:  
+
 
   ```javascript
   data: input data object, {"SToken":""} 
@@ -225,7 +270,8 @@
   cb: callback({ErrCode, ErrMsg}) or callback(result)
   ```
 
-  Example:
+  Example:  
+
 
   ```javascript
   var data = {"SToken":mydev.SToken}; 
@@ -234,9 +280,13 @@
    });
   ```
 
-* **Set**
 
-  Input:
+
+* **Set**  
+
+
+  Input:  
+
 
   ```javascript
   data: input data object, {"SToken":"", "EdgeInfo":{}} 
@@ -248,7 +298,8 @@
   cb: callback({ErrCode, ErrMsg} ) or callback(result)
   ```
 
-  Example:
+  Example:  
+
 
   ```javascript
   var info = {"EiName":"myEi","EiType":".ei","EiTag":"#my","EiLoc":""};
@@ -258,9 +309,13 @@
    });
   ```
 
-* **Search**
 
-  Input:
+
+* **Search**  
+
+
+  Input:  
+
 
   ```javascript
   data: input data object, {"SToken":"","Keyword":""}
@@ -269,7 +324,8 @@
   cb: callback({ErrCode, ErrMsg} ) or callback(reply)
   ```
 
-  Example:
+  Example:  
+
 
   ```javascript
   var data = {"SToken":mydev.SToken, "Keyword":"#test"};
@@ -278,9 +334,13 @@
    });
   ```
 
-* **OnEvent**
 
-  Input:
+
+* **OnEvent**  
+
+
+  Input:  
+
 
   ```javascript
   stype: "message" is for getxmsg, "state" is for state changed 
@@ -288,9 +348,11 @@
   ```
 
   Output:  
-  returned state is boolean \( true or false \) in nature
+  returned state is boolean \( true or false \) in nature  
 
-  Example:
+
+  Example:  
+
 
   ```javascript
   var InmsgRcve = function(ch, head, from, to, msgtype, data){

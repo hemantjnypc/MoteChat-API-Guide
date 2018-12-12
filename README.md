@@ -1,8 +1,14 @@
+---
+description: >-
+  The communication bus at the core of the company's solutions and services at
+  PaaS and SaaS layers...
+---
+
 # Introduction
 
-![](.gitbook/assets/mc.png)
+![MoteChat Communication Bus](.gitbook/assets/mc.png)
 
-```text
-MoteChat API Guide | YPCloud Inc. | Copyright©2018 | Last Updated: 2018/04/28
-```
+**`MoteChat API Guide | YPCloud Inc. | Copyright ©2018 | Last Updated: 2018/04/28`**
+
+
 

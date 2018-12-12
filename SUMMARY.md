@@ -4,14 +4,14 @@
 
 ## Overview
 
-* [MoteChat](overview/readme.md)
+* [MoteChat](overview/overview.md)
 * [MoteChat HelloWorld](overview/motechathelloworld.md)
 
 ## Motechat API
 
 * [System Diagram](motechat-api/systemdiagram.md)
-* [List of APIs](motechat-api/functionlist.md)
-* [Function List](motechat-api/listofapi.md)
-* [Commands & Usage](motechat-api/command.md)
+* [List of APIs](motechat-api/listofapi.md)
+* [Function List](motechat-api/functionlist.md)
+* [Functions & Usage](motechat-api/command.md)
 * [Error Codes](motechat-api/errorcode.md)
 
