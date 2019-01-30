@@ -4,7 +4,6 @@
 
 ## Overview
 
-* [MoteChat](overview/overview.md)
 * [MoteChat HelloWorld](overview/motechathelloworld.md)
 
 ## Motechat API
